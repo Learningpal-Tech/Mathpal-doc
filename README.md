@@ -61,7 +61,7 @@ Results on console with two JSONs:
 | url | string "http://api.learningpal.com/math/upload" |
 | files | image file |
 
- ###### Result#1
+###### Result#1
 
 | element | Description |
 |------------|------------|
