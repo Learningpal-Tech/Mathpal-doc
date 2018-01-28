@@ -89,6 +89,31 @@ Confidence value represents the possibility of machine get answer right. The mor
 
 
 ## More Examples
+![](https://github.com/RobinXL/Mathpal-doc/blob/master/346.png?raw=true)
+```JSON
+{
+    "confidence": 0.49241428279855526, 
+    "isResult": "true", 
+    "result": "\\frac { a ^ { 2 } + b ^ { 2 } } { a b } "
+}
+```
 
+![](https://github.com/RobinXL/Mathpal-doc/blob/master/latex2.png?raw=true)
+```JSON
+{
+    "confidence": 0.48371252203373305, 
+    "isResult": "true", 
+    "result": "{ \\frac { b ^ { 2 } + c ^ { 2 } - a ^ { 2 } } } { 2 b c } = \\frac { 4 } { 5 } "
+}
+```
+
+![](https://github.com/RobinXL/Mathpal-doc/blob/master/latex20.png?raw=true)
+```JSON
+{
+    "confidence": 0.9923326232870631, 
+    "isResult": "true", 
+    "result": "\\sin A = \\frac { 3 } { 5 } "
+}
+```
 
 
