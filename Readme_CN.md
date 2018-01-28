@@ -66,7 +66,7 @@ print response.text
 | url | 字符串 "http://api.learningpal.com/math/upload" |
 | files | 图片文件 |
 
- ###### 结果一
+###### 结果一
 
 | 内容 | 详细描述 |
 |------------|------------|
