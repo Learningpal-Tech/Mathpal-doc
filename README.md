@@ -1,5 +1,7 @@
 # Intro
-Welcome to Mathpal handwritten math equation recognition API. The recognition engine integrates the most advanced neural network algorithm to achieve variable type of handwritten with high accurate.  
+EN    |    [中文](Readme_CN.md)
+
+Welcome to Mathpal handwritten math equation recognition API. The recognition engine integrates the most advanced neural network algorithm to achieve variable type of handwritten with high accurate.  
 #### To get started with testing (repo location: [learningpal api](https://github.com/TomNong/learningpal_api) )
 ```
 git clone https://github.com/TomNong/learningpal_api.git
