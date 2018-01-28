@@ -1,4 +1,6 @@
 # 简介
+[EN](README.md)   |    中文
+
 欢迎使用MathPal的数学方程式手写体识别工具，该引擎是采用先进的神经网络算法所搭建的手写体图像识别技术，在这里我们将会提供详尽的API测试与使用的指导。
 #### API测试包地址 ([GitHub](https://github.com/TomNong/learningpal_api) )
 ```
