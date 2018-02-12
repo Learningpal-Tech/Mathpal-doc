@@ -96,6 +96,7 @@ print response.text
 在程序设计时，建议根据返回的信心值设定输出壁垒（建议基准线在10%左右）
 
 ## 更多的识别样例
+手写分数+指数
 ![](https://github.com/RobinXL/Mathpal-doc/blob/master/346.png?raw=true)
 ```JSON
 {
@@ -113,15 +114,52 @@ print response.text
     "result": "{ \\frac { b ^ { 2 } + c ^ { 2 } - a ^ { 2 } } } { 2 b c } = \\frac { 4 } { 5 } "
 }
 ```
-
+手写三角函数
 ![](https://github.com/RobinXL/Mathpal-doc/blob/master/latex20.png?raw=true)
 ```JSON
 {
-    "confidence": 0.9923326232870631, 
+    "confidence": 0.9922324132840632, 
     "isResult": "true", 
     "result": "\\sin A = \\frac { 3 } { 5 } "
 }
 ```
+###### 更复杂的印刷体识别
+多元方程
+![](https://github.com/Learningpal-Tech/Mathpal-doc/blob/master/latex220170314_191237556349.png?raw=true)
+```
+{
+    "confidence": 0.8883326232870631, 
+    "isResult": "true", 
+    "result": "\begin {cases} 5 x + 7 y + 9 x = 0 \\ x - y + z = - 3 \\ 8 x + y = 1 2 \end {cases}"
+}
+```
+高等数学
+![](https://github.com/Learningpal-Tech/Mathpal-doc/blob/master/4efc22f0f5.png?raw=true)
+```
+{
+    "confidence": 0.02662814192340226, 
+    "isResult": "true", 
+    "result": "\frac { \partial \bar { g } _ { \mu \nu } } { \partial { 1 _ { i } } } \in \mathrm { K e r } ( \bar { F } ^ { \dagger } ) "
+}
+```
+矩阵
+![](https://github.com/Learningpal-Tech/Mathpal-doc/blob/master/4f6a6bf201.png?raw=true)
+```
+{
+    "confidence": 0.33522311262359124, 
+    "isResult": "true", 
+    "result": "M = ( \begin{array} { c c } { C }  { \hat { 0 } } \\ { \hat { 0 } }  { \bar { C } } \\ \end{array} ) , "
+}
+```
+![](https://github.com/Learningpal-Tech/Mathpal-doc/blob/master/edccba9380.png?raw=true)
+```
+{
+    "confidence": 0.27202191162459231, 
+    "isResult": "true", 
+    "result": "y = ( \begin{array} { c } { 0 }  { q _ { 1 } }  { 0 }  { 0 } \\ { 0 }  { 0 }  { q _ { 2 } }  { 0 } \\ { 0 }  { 0 }  { 0 }  { q _ { 3 } } \\ { q _ { 4 } }  { 0 }  { 0 }  { 0 } \\ \end{array} ) "
+}
+```
+
 
 ## 通过Swift语言发送请求样例（Swift3.0+）
 ```swift
