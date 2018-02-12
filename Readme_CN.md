@@ -95,7 +95,7 @@ print response.text
 返回结果中的confidence信心值，代表该识别引擎对于本次识别的结果的准确性的判断。信心值越接近1.0就代表本次识别正确的可能性越高。
 在程序设计时，建议根据返回的信心值设定输出壁垒（建议基准线在10%左右）
 
-## 更多的识别样例
+## 更多支持识别的样例
 手写分数+指数
 
 ![](https://github.com/RobinXL/Mathpal-doc/blob/master/346.png?raw=true)
