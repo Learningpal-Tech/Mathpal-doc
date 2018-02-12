@@ -129,7 +129,7 @@ print response.text
 多元方程
 
 ![](https://github.com/Learningpal-Tech/Mathpal-doc/blob/master/latex220170314_191237556349.png?raw=true)
-```
+```JSON
 {
     "confidence": 0.8883326232870631, 
     "isResult": "true", 
@@ -139,7 +139,7 @@ print response.text
 高等数学
 
 ![](https://github.com/Learningpal-Tech/Mathpal-doc/blob/master/4efc22f0f5.png?raw=true)
-```
+```JSON
 {
     "confidence": 0.02662814192340226, 
     "isResult": "true", 
@@ -149,7 +149,7 @@ print response.text
 矩阵
 
 ![](https://github.com/Learningpal-Tech/Mathpal-doc/blob/master/4f6a6bf201.png?raw=true)
-```
+```JSON
 {
     "confidence": 0.33522311262359124, 
     "isResult": "true", 
@@ -157,7 +157,7 @@ print response.text
 }
 ```
 ![](https://github.com/Learningpal-Tech/Mathpal-doc/blob/master/edccba9380.png?raw=true)
-```
+```JSON
 {
     "confidence": 0.27202191162459231, 
     "isResult": "true", 
