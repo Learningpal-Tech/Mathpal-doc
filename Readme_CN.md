@@ -97,6 +97,7 @@ print response.text
 
 ## 更多的识别样例
 手写分数+指数
+
 ![](https://github.com/RobinXL/Mathpal-doc/blob/master/346.png?raw=true)
 ```JSON
 {
@@ -115,6 +116,7 @@ print response.text
 }
 ```
 手写三角函数
+
 ![](https://github.com/RobinXL/Mathpal-doc/blob/master/latex20.png?raw=true)
 ```JSON
 {
@@ -125,6 +127,7 @@ print response.text
 ```
 ###### 更复杂的印刷体识别
 多元方程
+
 ![](https://github.com/Learningpal-Tech/Mathpal-doc/blob/master/latex220170314_191237556349.png?raw=true)
 ```
 {
@@ -134,6 +137,7 @@ print response.text
 }
 ```
 高等数学
+
 ![](https://github.com/Learningpal-Tech/Mathpal-doc/blob/master/4efc22f0f5.png?raw=true)
 ```
 {
@@ -143,6 +147,7 @@ print response.text
 }
 ```
 矩阵
+
 ![](https://github.com/Learningpal-Tech/Mathpal-doc/blob/master/4f6a6bf201.png?raw=true)
 ```
 {
